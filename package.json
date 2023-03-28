@@ -1,12 +1,13 @@
 {
   "name": "three-demo",
   "private": true,
-  "homepage": "https://Bluhurr.github.io/r3f-demo/",
+  "homepage": "https://Bluhurr.github.io/r3f-demo",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
